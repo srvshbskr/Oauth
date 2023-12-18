@@ -1,0 +1,39 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="login-form">
+  <div class="socials">
+    <a href="{% url 'social:begin' 'github' %}" class="social">
+      Login with Github
+      <img
+        src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+        alt=""
+        srcset=""
+        class="img"
+      />
+    </a>
+  </div>
+  <div class="separator">OR</div>
+
+  <div class="built-in">
+    <form action="" method="POST" class="form">
+      {% csrf_token %}
+      <div class="row">
+        <label for="username">Username</label>
+        <input type="text" name="username" class="form-field" />
+      </div>
+      <div class="row">
+        <label for="password">Password</label>
+        <input type="password" name="password" class="form-field" />
+      </div>
+
+      <div class="row">
+        <p class="dull">Don't have an account ?</p>
+        <a href="{% url 'signup' %}" class="signup-btn">Sign up</a>
+      </div>
+
+      <input type="submit" value="submit" class="button" />
+    </form>
+  </div>
+
+  {% endblock content %}
+</div>
