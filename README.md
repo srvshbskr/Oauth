@@ -15,13 +15,6 @@ This project is a Django-based site that checks the availability of usernames an
    ```bash
    python manage.py makemigrations
    python manage.py migrate
-   
-4. **Create super user:**
-  ```bash
-    python manage.py createsuperuser
-  
 
-5. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your_username/your_project.git
-   cd your_project
+sdasdasfsjdfbkdjaf
+
