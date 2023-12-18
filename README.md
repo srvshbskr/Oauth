@@ -16,5 +16,13 @@ This project is a Django-based site that checks the availability of usernames an
    python manage.py makemigrations
    python manage.py migrate
 
-sdasdasfsjdfbkdjaf
+4. **Create Super user:**
+   ```bash
+   python manage.py createsuperuser
 
+5. **Run server:**
+
+   Finally, start the app by using
+
+   ```bash
+   python manage.py runserver
