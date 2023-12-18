@@ -1,6 +1,6 @@
 # Username Availability Checker
 
-This project is a Django-based site that checks the availability of usernames and implements Single Sign-On (SSO) using the `social-auth-django` package.
+This project is a Django-based site that checks the availability of usernames and implements Single Sign-On (SSO) using the `social-auth-app-django` package.
 
 ## Installation
 1. **Clone the repository:**
